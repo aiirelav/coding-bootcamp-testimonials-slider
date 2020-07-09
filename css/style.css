@@ -8,8 +8,7 @@
       margin: 0;
       height: 100vh;
       width: 100vw;
-      background: url('../images/pattern-curve.svg') left bottom no-repeat;
-      background-size: 70%;
+     
     }
     .container {
       width: 100%;
@@ -20,6 +19,8 @@
       grid-template-areas: "portrait" "quote";
       justify-items: center;
       align-items: center;
+      background: url('../images/pattern-curve.svg') left bottom no-repeat;
+      background-size: 70%;
     }
 
     .portrait {
@@ -98,6 +99,9 @@
       #next-button {
         border-radius: 0 50% 50% 0;
       }
+      section {
+        padding-bottom: 1.5rem;
+      }
     @media (min-width: 930px){
      body {
         background-size: auto;
@@ -108,7 +112,8 @@
         margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr 3rem 1fr;
-        grid-template-rows: 100%;         
+        grid-template-rows: 100%;    
+        background: none;     
       }
        .portrait {
         width: 100%;
