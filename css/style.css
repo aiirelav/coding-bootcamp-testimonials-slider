@@ -6,6 +6,7 @@
     body {
       padding: 0;
       margin: 0;
+      height: 100vh;
       width: 100vw;
       background: url('../images/pattern-curve.svg') left bottom no-repeat;
       background-size: 70%;
@@ -101,7 +102,6 @@
      body {
         background-size: auto;
         background: url('../images/pattern-curve.svg') left bottom no-repeat, url('../images/pattern-bg.svg') center right 2.25rem no-repeat;
-        height: 100vh;
       }
       .container {
         width: 77%;
